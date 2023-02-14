@@ -37,13 +37,14 @@
         <br>
         <p style="word-spacing: 10%;">to be continued . . . </p>
     </section>
-    <section>
+    
         <code>Don't be scared</code>
-        <p>
-            <audio id="myAudio" controls autoplay type="audio/mp3"
+    
+            <audio id="myAudio"  autoplay type="audio/mp3"
+            onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 3000)"
                 src="creation/Beethoven-5th-symphony-piano.mp3"></audio>
-        </p>
-    </section>
+    
+        
 </body>
 
 </html>
