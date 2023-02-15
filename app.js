@@ -11,6 +11,11 @@ const observer = new IntersectionObserver((e) => {
     });
 })
 
+const audio = document.getElementById('myAudio');
+console.log(audio);
+setTimeout(()=>{
+audio.play();
+},2000)
 
 const hiddenElements = document.querySelectorAll('.hidden');
 
